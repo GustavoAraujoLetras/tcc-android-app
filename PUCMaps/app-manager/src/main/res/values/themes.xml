@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PucMaps" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorAccent">#03DAC5</item>
+
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+
+        <item name="colorApproval">#008000</item>
+        <item name="colorOnApproval">#FFFFFF</item>
+
+        <item name="delete_colorPrimary">?attr/colorError</item>
+        <item name="delete_colorOnPrimary">?attr/colorOnError</item>
+
+        <item name="edit_colorPrimary">#FF8888FF</item>
+        <item name="edit_colorOnPrimary">#FFFFFFFF</item>
+
+        <item name="save_colorPrimary">?attr/colorApproval</item>
+        <item name="save_colorOnPrimary">?attr/colorOnApproval</item>
+    </style>
+
+
+    <!-- region Theme.PucMinas.Activity -->
+
+    <style name="Theme.PucMaps.Activity"/>
+
+    <style name="Theme.PucMaps.Activity.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PucMaps.Activity.NoActionBar.EdgeToEdge"/>
+
+    <!-- endregion -->
+
+
+    <!-- region Theme.PucMinas.BottomSheetDialog -->
+
+    <style
+        name="Theme.PucMaps.BottomSheetDialog"
+        parent="Theme.MaterialComponents.Light.BottomSheetDialog" />
+
+    <style name="Theme.PucMaps.BottomSheetDialog.EdgeToEdge" />
+
+    <!-- endregion -->
+
+
+    <!-- region Theme.PucMinas.Button -->
+
+    <style name="Theme.PucMaps.Button" parent="Theme.PucMaps">
+        <item name="colorOnSurface">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.PucMaps.Button.Delete">
+        <item name="colorPrimary">?attr/delete_colorPrimary</item>
+        <item name="colorOnPrimary">?attr/delete_colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.PucMaps.Button.Save">
+        <item name="colorPrimary">?attr/save_colorPrimary</item>
+        <item name="colorOnPrimary">?attr/save_colorOnPrimary</item>
+    </style>
+
+    <!-- endregion -->
+
+
+    <!-- region Theme.PucMinas.FloatingActionButton -->
+
+    <style name="Theme.PucMaps.FloatingActionButton"/>
+
+    <style name="Theme.PucMaps.FloatingActionButton.Neutral">
+        <item name="colorSecondary">#DDFFFFFF</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+    </style>
+
+    <style name="Theme.PucMaps.FloatingActionButton.Delete">
+        <item name="colorSecondary">?attr/delete_colorPrimary</item>
+        <item name="colorOnSecondary">?attr/delete_colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.PucMaps.FloatingActionButton.Edit">
+        <item name="colorSecondary">?attr/edit_colorPrimary</item>
+        <item name="colorOnSecondary">?attr/edit_colorOnPrimary</item>
+    </style>
+
+    <!-- endregion -->
+
+
+    <!-- region Theme.PucMinas.Overlay -->
+
+    <style
+        name="Theme.PucMaps.Overlay.AppBar"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style
+        name="Theme.PucMaps.Overlay.Popup"
+        parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- endregion -->
+
+
+</resources>

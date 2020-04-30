@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PUC Maps</string>
+
+    <!-- region Maps Activity -->
+
+    <string name="title_activity_maps">Map</string>
+
+    <!-- endregion -->
+
+    <!-- region Permissions Explanations -->
+
+    <string name="permission_explanation_access_fine_location">In order to localize and guide you the app needs access to the most precise geolocation information.</string>
+    <string name="permission_explanation_access_coarse_location">@string/permission_explanation_access_fine_location</string>
+
+    <!-- endregion -->
+
+    <!-- region Actions -->
+
+    <string name="action_done">Done</string>
+    <string name="action_new_place">New place</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- endregion -->
+</resources>

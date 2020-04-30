@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorApproval" format="color" />
+    <attr name="colorOnApproval" format="color" />
+
+    <attr name="delete_colorPrimary" format="color" />
+    <attr name="delete_colorOnPrimary" format="color" />
+
+    <attr name="edit_colorPrimary" format="color" />
+    <attr name="edit_colorOnPrimary" format="color" />
+
+    <attr name="save_colorPrimary" format="color" />
+    <attr name="save_colorOnPrimary" format="color" />
+
+</resources>

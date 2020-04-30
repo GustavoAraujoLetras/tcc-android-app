@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- region Widget.PucMaps.BottomSheetDialog -->
+
+    <style name="Widget.PucMaps.BottomSheetDialog" parent="Theme.PucMaps.BottomSheetDialog.EdgeToEdge">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- region Widget.PucMaps.Button -->
+
+    <style
+        name="Widget.PucMaps.Button.Delete.Outlined"
+        parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+        <item name="android:theme">@style/Theme.PucMaps.Button.Delete</item>
+        <item name="icon">@drawable/ic_delete_24</item>
+    </style>
+
+    <style
+        name="Widget.PucMaps.Button.Save.Outlined"
+        parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+        <item name="android:theme">@style/Theme.PucMaps.Button.Save</item>
+        <item name="icon">@drawable/ic_save_24</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- region Widget.PucMaps.FloatingActionButton -->
+
+    <style
+        name="Widget.PucMaps.FloatingActionButton"
+        parent="Widget.MaterialComponents.FloatingActionButton" />
+
+    <style name="Widget.PucMaps.FloatingActionButton.Delete">
+        <item name="android:theme">@style/Theme.PucMaps.FloatingActionButton.Delete</item>
+        <item name="srcCompat">@drawable/ic_delete_24</item>
+    </style>
+
+    <style name="Widget.PucMaps.FloatingActionButton.Edit">
+        <item name="android:theme">@style/Theme.PucMaps.FloatingActionButton.Edit</item>
+        <item name="srcCompat">@drawable/ic_edit_24</item>
+    </style>
+
+    <style name="Widget.PucMaps.FloatingActionButton.PushUp">
+        <item name="android:theme">@style/Theme.PucMaps.FloatingActionButton</item>
+        <item name="fabSize">mini</item>
+        <item name="srcCompat">@drawable/ic_keyboard_arrow_up_24</item>
+    </style>
+
+    <!-- endregion -->
+
+    <!-- region Widget.PucMaps.TextInputLayout -->
+
+    <style
+        name="Widget.PucMaps.TextInputLayout.OutlinedBox"
+        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox" />
+
+    <!-- endregion -->
+
+    <!-- region Widget.PucMaps.Switch -->
+
+    <style name="Widget.PucMaps.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+    </style>
+
+    <!-- endregion -->
+
+</resources>

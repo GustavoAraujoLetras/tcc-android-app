@@ -1,0 +1,5 @@
+include ':permissions-ktx'
+include ':app-manager'
+include ':map-builder'
+include ':app'
+rootProject.name = "PUC Maps"

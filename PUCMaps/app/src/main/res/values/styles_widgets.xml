@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Widget.PucMaps.BottomSheetDialog" parent="Theme.PUCMaps.BottomSheetDialog" >
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.PUCMaps" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+    </style>
+
+    <style name="Theme.PUCMaps.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PUCMaps.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PUCMaps.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.PUCMaps.BottomSheetDialog" parent="Theme.MaterialComponents.BottomSheetDialog" />
+
+    <style name="Theme.PucMaps.Button.Delete" parent="Widget.MaterialComponents.Button">
+        <item name="colorPrimary">?attr/colorError</item>
+        <item name="colorOnPrimary">?attr/colorOnError</item>
+    </style>
+
+</resources>
